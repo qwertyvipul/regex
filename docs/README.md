@@ -1,10 +1,11 @@
 # Regex - Regular Expressions
 
-[View Snippets](./SNIPPETS.md)
+### Docs
+[Snippets](./SNIPPETS.md)
+[Regular Expressions with Python](./PY.md)
 
-### Metacharacters
-["." Period]
-["[" Bi]
-["\" Backslash]
+### Projects
+[CSS Minifier](./MINIFIER.md)
 
-.[{()\^$|?*+
+### References
+[Corey Schafer - Regular Expression](https://youtu.be/sa-TUpSx1JA)

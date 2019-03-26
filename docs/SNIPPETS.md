@@ -19,14 +19,17 @@
     ( )     - Group
 
     Quantifiers:
-    *       - 0 or More
-    +       - 1 or More
-    ?       - 0 or One
-    {3}     - Exact Number
-    {3,4}   - Range of Numbers (Minimum, Maximum)
+    *       - 0 or More of the preceding pattern
+    +       - 1 or More of the preceding pattern
+    ?       - 0 or One of the preceding pattern
+    {3}     - Exact Number of the preceding pattern
+    {3,4}   - Range of Numbers (Minimum, Maximum) of the preceding pattern
 ```
 
 
 #### Sample Regexs ####
 
-`[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+`
+```markdown
+# To match email addresses
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+```
