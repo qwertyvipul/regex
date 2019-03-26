@@ -39,8 +39,13 @@ pattern = re.compile("abc")
 
 ### How to match
 ```python
-matches = pattern.finditr(text_to_search)
+matches = pattern.finditer(text_to_search)
 
 for match in matches:
     print(match)
+    
+# OUTPUT: <_sre.SRE_Match object; span=(5, 8), match='abc'>
+
+print(text_to_search[1:4])
+# OUTPUT: abc
 ```
